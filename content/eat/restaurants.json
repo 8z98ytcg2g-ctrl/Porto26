@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Gazela",
+    "description": "RECOMMENDED: Porto's cult snack-bar and arguably the city's most famous late-night food stop. The legendary cachorrinhos (crispy grilled hot dogs sliced into bite-sized pieces) are the reason you come, ideally with fries and an ice-cold Super Bock. It's loud, cramped, energetic and packed with both locals and tourists hunting a proper Porto experience. Anthony Bourdain helped put it on the map and locals still swear by it. Very affordable and usually no reservations – expect queues at peak times.",
+    "card_image": "Gazela.png",
+    "lat": 41.1468,
+    "lng": -8.6065
+  },
+  {
+    "name": "Casa Guedes Tradicional",
+    "description": "RECOMMENDED: If Porto had an official sandwich, this place might own it. The slow-roasted pork sandwich with Serra da Estrela cheese is absurdly good and worth building an afternoon around. Casual, bustling and packed from lunch through late evening with a constant stream of hungry locals and visitors. Prices stay refreshingly reasonable given the reputation. Go to the original location for the classic experience and prepare to leave smelling faintly of roast pork and happiness.",
+    "card_image": "Guedes.png",
+    "lat": 41.1458,
+    "lng": -8.6049
+  },
+  {
+    "name": "Conga",
+    "description": "RECOMMENDED: A Porto institution for bifanas — thin pork sandwiches drenched in a spicy sauce that locals crave after a few beers. No-frills, fast-moving and unapologetically traditional. The atmosphere feels more like a beloved neighbourhood canteen than a tourist restaurant, which is exactly why people love it. Order the bifana, add fries, embrace the mess. Cheap, quick and ideal for a lunch stop between sightseeing.",
+    "card_image": "Conga.png",
+    "lat": 41.1505,
+    "lng": -8.6098
+  },
+  {
+    "name": "Brasão Coliseu",
+    "description": "RECOMMENDED: One of the safest bets in town for a proper francesinha. Think polished beer hall meets modern Portuguese tavern, with excellent craft beer alongside Porto's iconic sandwich. The sauce is the star and has a near-fanatical following. Slightly more expensive than old-school spots but noticeably more comfortable. Booking ahead is smart, especially for dinner and weekends.",
+    "card_image": "Coliseu.png",
+    "lat": 41.1454,
+    "lng": -8.6058
+  },
+  {
+    "name": "Prégar Baixa",
+    "description": "RECOMMENDED: The place to go when you want a gourmet Portuguese steak sandwich instead of another francesinha. Stylish without being pretentious, with a lively terrace that's perfect for people-watching. Their prego sandwiches are rich, juicy and dangerously easy to order twice. Great cocktails and sharing plates make it a strong evening option. Mid-range prices and a fun atmosphere near Ribeira.",
+    "card_image": "Baixa.png",
+    "lat": 41.1413,
+    "lng": -8.6154
+  },
+  {
+    "name": "NOLA KITCHEN",
+    "description": "RECOMMENDED FOR VEGGIES: When you need a break from pork, cheese and beer, this is your reset button. Bright, modern and Instagram-friendly, serving excellent brunches, smoothie bowls and healthy plates without feeling worthy or dull. Popular with digital nomads like Russ and travellers looking for lighter food. Portions are generous and presentation is excellent. Great breakfast or brunch choice and open throughout the day.",
+    "card_image": "Nola.png",
+    "lat": 41.1470,
+    "lng": -8.6125
+  },
+  {
+    "name": "O Valentim",
+    "description": "RECOMMENDED: Worth the trip out to Matosinhos for some of the best seafood around Porto. Expect charcoal-grilled fish, giant prawns and seafood platters served in a bustling, traditional dining room. The vibe is authentic fishing-town Portugal rather than polished city-centre Porto. Prices are fair considering the quality and freshness. Ideal for a long lunch after walking along the coast.",
+    "card_image": "Valentim.png",
+    "lat": 41.1828,
+    "lng": -8.6967
+  },
+  {
+    "name": "CURB",
+    "description": "RECOMMENDED: One of Porto's best modern burger spots. Small, stylish and focused on quality rather than gimmicks, with smashed burgers that regularly appear on local 'best burger' lists. Relaxed neighbourhood feel, craft beers and consistently strong execution. Perfect for a casual dinner when Portuguese food fatigue kicks in. Often busy despite the tucked-away location.Once the burgers have sold for the day it closes",
+    "card_image": "Curb.png",
+    "lat": 41.1526,
+    "lng": -8.6192
+  },
+  {
+    "name": "Antunes",
+    "description": "RECOMMENDED: A Porto classic famous for roast goat, served in huge portions to tables full of locals. Traditional, slightly old-school and proudly unchanged by food trends. The goat is incredibly tender and the reason almost everyone is there. Come hungry and expect a proper Portuguese family-meal atmosphere. Reservations are advisable for dinner.",
+    "card_image": "Antunes.png",
+    "lat": 41.1518,
+    "lng": -8.6108
+  },
+  {
+    "name": "Cozinha das Flores",
+    "description": "GOING ON FRIDAY: One of Porto's most acclaimed modern restaurants, blending Portuguese ingredients with a refined but relaxed approach. The room feels stylish and contemporary without becoming stuffy. Expect beautifully executed seasonal dishes rather than traditional comfort food. Service is polished and the wine list is excellent. This is your 'special meal' booking while in Porto. Booking well ahead is strongly recommended.",
+    "card_image": "Flores.png",
+    "lat": 41.1429,
+    "lng": -8.6145
+  },
+  {
+    "name": "Tapabento",
+    "description": "RECOMMENDED: A small, hugely popular restaurant hidden near São Bento Station that consistently punches above its weight. Creative tapas, seafood, sushi-inspired dishes and excellent service create a memorable experience. The atmosphere is intimate and energetic, making it perfect for date night or a celebratory dinner. It regularly appears on Porto food shortlists for good reason. Reservations are essential if you want a table at a sensible hour.",
+    "card_image": "Tapabento.png",
+    "lat": 41.1465,
+    "lng": -8.6107
+  },
+  {
+    "name": "Mercado do Bolhão",
+    "description": "RECOMMENDED: Porto's historic market and one of the city's best places to absorb local life. Recently restored but still packed with produce stalls, flower sellers, wine, snacks and traditional food counters. Excellent place to graze your way through lunch rather than committing to one restaurant. The atmosphere feels authentically Porto despite its popularity. Go hungry and allow more time than you think.",
+    "card_image": "Mercado.png",
+    "lat": 41.1484,
+    "lng": -8.6036
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Rua da Galeria de Paris",
+    "description": "RECOMMENDED: The spiritual centre of Porto nightlife. Packed with bars spilling onto the street, crowds drinking outside and music coming from every direction. The street itself often feels like one giant open-air party, especially on Fridays and Saturdays. Start here if it's your first night in Porto. Peak atmosphere usually kicks in after midnight and runs very late.",
+    "card_image": "paris.png",
+    "lat": 41.1468,
+    "lng": -8.6147
+  },
+  {
+    "name": "Rua de Cândido dos Reis",
+    "description": "RECOMMENDED: Effectively merges into the Galeria de Paris nightlife zone and forms the core of Porto's bar district. Expect everything from tiny beer bars to cocktail spots and late-night party venues. The crowd skews young, social and energetic. Less about finding one specific venue and more about wandering until somewhere grabs you. Best experienced as part of a bar crawl.",
+    "card_image": "reis.png",
+    "lat": 41.1466,
+    "lng": -8.6153
+  },
+  {
+    "name": "Rua da Picaria",
+    "description": "RECOMMENDED: Arguably Porto's coolest drinking street right now. Less chaotic than Galerias and packed with stylish wine bars, cocktail spots, natural wine venues and excellent restaurants. Feels slightly older, more local and more food-focused. Ideal if you want drinks and conversation rather than full nightclub energy. One of the strongest areas in the city for bar-hopping.",
+    "card_image": "picaria.png",
+    "lat": 41.1486,
+    "lng": -8.6152
+  },
+  {
+    "name": "Base Porto",
+    "description": "One of the city's favourite outdoor drinking spots. Built into a grassy terrace beneath the Clérigos Tower, it fills up with locals drinking beers, wine and cocktails before heading out properly. Casual, affordable and very Porto. Excellent early-evening atmosphere during summer. Great starting point before Galerias.",
+    "card_image": "base.png",
+    "lat": 41.1472,
+    "lng": -8.6158
+  },
+  {
+    "name": "Capela Incomum",
+    "description": "A wine bar inside a converted chapel, because apparently Porto likes showing off. Candlelit, atmospheric and genuinely beautiful. Excellent Portuguese wine selection and ideal for a slower, more sophisticated evening. A completely different vibe from the Galerias party scene. One of the city's best date-night spots.",
+    "card_image": "capela.png",
+    "lat": 41.1492,
+    "lng": -8.6185
+  },
+  {
+    "name": "Prova Wine Bar",
+    "description": "If you're into wine, this is one of Porto's strongest recommendations. Huge range of Portuguese wines available by the glass, knowledgeable staff and excellent cheese and charcuterie boards. Feels intimate, relaxed and distinctly Portuguese. Great place to learn what you actually like before buying bottles to bring home.",
+    "card_image": "prova.png",
+    "lat": 41.1418,
+    "lng": -8.6157
+  },
+  {
+    "name": "Ribeira",
+    "description": "More drinks-with-a-view than hardcore nightlife, but the riverside atmosphere is unbeatable. Packed terraces, live music and beautiful views across to Gaia make it ideal for long evenings. Touristy? Yes. Worth it anyway? Also yes. Particularly good for sunset drinks before moving elsewhere later.",
+    "card_image": "ribeira.png",
+    "lat": 41.1405,
+    "lng": -8.6110
+  },
+  {
+    "name": "Foz do Douro",
+    "description": "Porto's more upscale drinking district. Think beach bars, wine terraces, cocktail lounges and ocean views rather than students doing tequila shots. Excellent for a more relaxed evening, especially in summer. Feels wealthier, calmer and more polished than the city centre nightlife scene. Perfect for sunset-to-dinner nights.",
+    "card_image": "foz.png",
+    "lat": 41.1518,
+    "lng": -8.6755
+  },
+  {
+    "name": "Maus Hábitos",
+    "description": "One of Porto's most interesting nightlife venues. Part bar, part cultural space, part club, part rooftop hangout. DJs, live music, exhibitions and a creative crowd give it a very different energy from the tourist-heavy bar streets. Feels alternative without trying too hard. One of the city's strongest late-night recommendations.",
+    "card_image": "maus.png",
+    "lat": 41.1454,
+    "lng": -8.6068
+  }
+]

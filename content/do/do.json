@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Jardim do Morro",
+    "description": "RECOMMENDED: The undisputed sunset spot in Porto. Grab beers from a nearby kiosk, sit on the grass and watch the sun drop behind the Dom Luís I Bridge while half the city gathers around you. The atmosphere becomes almost festival-like in summer, with musicians, street performers and groups of friends everywhere. Views across the Ribeira rooftops are ridiculous. Go an hour before sunset if you want a decent spot.",
+    "card_image": "Morro.png",
+    "lat": 41.1409,
+    "lng": -8.6098
+  },
+  {
+    "name": "Palácio de Cristal Gardens",
+    "description": "RECOMMENDED: Crystal Palace. Beautiful terraced gardens with some of the best panoramic views over the Douro River. Much quieter than the major tourist hotspots and ideal when you want to escape the crowds. Expect peacocks wandering around like they own the place. Perfect for a slow morning coffee walk or an afternoon break between food stops. Free entry and surprisingly underrated.",
+    "card_image": "Cristal.png",
+    "lat": 41.1487,
+    "lng": -8.6213
+  },
+  {
+    "name": "Miradouro da Vitória",
+    "description": "RECOMMENDED: The classic postcard Porto viewpoint. You get the cathedral, the river, the bridges and the sea of terracotta rooftops all in one frame. Small, simple and often overlooked because it feels almost hidden. Best visited early morning or around golden hour when the city glows. One of the highest reward-to-effort ratios in Porto.",
+    "card_image": "Miradouro.png",
+    "lat": 41.1437,
+    "lng": -8.6151
+  },
+  {
+    "name": "Miradouro das Fontainhas",
+    "description": "Less polished, more local and arguably more atmospheric than the famous viewpoints. Overlooks the river valley and bridge from the eastern side of the city. Great place to bring takeaway beers and watch Porto slowly light up at dusk. Feels more like a neighbourhood secret than a tourist attraction. Excellent photography spot.",
+    "card_image": "Fontainhas.png",
+    "lat": 41.1436,
+    "lng": -8.5988
+  },
+  {
+    "name": "Manteigaria",
+    "description": "RECOMMENDED: Come here for one thing: absurdly good pastéis de nata. You can literally watch them being made while standing in line. Crispy pastry, warm custard and a dusting of cinnamon straight out of the oven. Tiny, fast-moving and always busy for good reason. Pair it with an espresso and continue your day significantly happier.",
+    "card_image": "Manteigaria.png",
+    "lat": 41.1493,
+    "lng": -8.6057
+  },
+  {
+    "name": "Caves Cálem",
+    "description": "Probably the best first port-tasting experience for most visitors. Historic cellars, guided tours and tastings with riverfront views make it an easy crowd-pleaser. The tours are polished without feeling overly corporate. You'll learn just enough about port to sound knowledgeable later in the trip. Book ahead during peak season.",
+    "card_image": "Caves.png",
+    "lat": 41.1387,
+    "lng": -8.6110
+  },
+  {
+    "name": "Graham's Port Lodge",
+    "description": "If you only do one premium port house, make it this. Spectacular views over Porto, beautiful ageing cellars and excellent tasting flights. Feels more refined and less rushed than some of the busier lodges. The terrace alone is worth the trip. A genuinely memorable late-afternoon Porto experience.",
+    "card_image": "Graham.png",
+    "lat": 41.1338,
+    "lng": -8.6210
+  },
+  {
+    "name": "FC Porto – Estádio do Dragão",
+    "description": "One of Europe's great modern football stadiums and essential if you have even a mild interest in football. The stadium tour takes you through the dressing rooms, tunnel and pitchside areas before finishing in the excellent club museum. Match days are even better if the timing works. FC Porto culture runs deep in the city and this is where you feel it properly. Allow at least 2–3 hours for the full experience.",
+    "card_image": "Estadio.png",
+    "lat": 41.1618,
+    "lng": -8.5836
+  },
+  {
+    "name": "Praia dos Ingleses",
+    "description": "England Beach. Porto's most popular city beach and the easiest beach option from the centre. Golden sand, beach bars and a lively atmosphere make it ideal for an easy afternoon. The Atlantic water is freezing, but that never seems to stop anyone. Excellent sunset location with plenty of places nearby for drinks afterwards.",
+    "card_image": "Ingleses.png",
+    "lat": 41.1510,
+    "lng": -8.6764
+  },
+  {
+    "name": "Praia de Matosinhos",
+    "description": "The best all-round beach near Porto. Huge sandy stretch, surf schools, beach bars and easy access to seafood restaurants like O Valentim afterwards. Popular with locals rather than just tourists. Great choice if you want an actual beach day rather than a quick photo stop. Surf lessons are widely available.",
+    "card_image": "Matosinhos.png",
+    "lat": 41.1816,
+    "lng": -8.7013
+  }
+]

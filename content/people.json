@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Tiago Ferreira",
+    "subtitle": "PORTO LOCAL",
+    "description": "Born in Bonfim, lives for FC Porto. Knows every tasca, tram route, and back alley in the city.",
+    "card_image": "tiago.jpg"
+  },
+  {
+    "name": "Catarina Sousa",
+    "subtitle": "FOOD WRITER",
+    "description": "Porto-born chef and food journalist. If she hasn't eaten there, it's not worth going.",
+    "card_image": "catarina.jpg"
+  },
+  {
+    "name": "Miguel Andrade",
+    "subtitle": "NIGHT OWL",
+    "description": "Architect by day, bar-hopper by night. He's been to every basement, rooftop, and converted warehouse in Porto.",
+    "card_image": "miguel.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Adega Sports Bar",
+    "description": "HIGHLY RECOMMENDED: This is probably the closest thing Porto has to a World Cup headquarters. Huge screens everywhere, football scarves covering the walls, cheap beer and a proper match-day atmosphere packed with locals, expats and travelling fans. If England, Portugal or a major knockout game is on, expect it to be absolutely bouncing. Burgers, hot dogs and sharing food keep things simple and effective. Arrive early for big matches because tables disappear fast.",
+    "card_image": "Adega.png",
+    "lat": 41.1480,
+    "lng": -8.6171
+  },
+  {
+    "name": "Eleven Sports Bar Foz",
+    "description": "If you want football with a slightly more polished coastal vibe, this is the move. Located near the beach in Foz, it combines proper sports-bar energy with better food and craft beer than most competitors. Multiple screens mean you'll rarely miss a game, even during busy tournament schedules. Excellent for daytime World Cup matches followed by sunset drinks by the ocean. Popular enough that locals regularly recommend it for major football events.",
+    "card_image": "Eleven.png",
+    "lat": 41.1513,
+    "lng": -8.6768
+  },
+  {
+    "name": "Ryan's Irish Pub",
+    "description": "The classic international football pub option. Expect Premier League fans, tourists, Guinness, live sport and a loud crowd whenever a big match kicks off. Great location near Ribeira makes it an easy choice before or after exploring the riverfront. Less 'Portuguese football culture' and more 'big tournament pub atmosphere' in the best possible way. Particularly strong if you're travelling with a mixed group supporting different teams.",
+    "card_image": "Irish.png",
+    "lat": 41.1408,
+    "lng": -8.6150
+  },
+  {
+    "name": "Guindalense Football Club",
+    "description": "One of Porto's coolest terraces with ridiculous views over the Dom Luís I Bridge. Not a dedicated sports bar, but when major football is on the atmosphere can be fantastic because half the city seems to end up here. Come for the view, stay for the beers and football. Excellent spot for afternoon World Cup fixtures when the weather is good. More local and less touristy than many sports bars.",
+    "card_image": "Guindalense.png",
+    "lat": 41.1418,
+    "lng": -8.6039
+  },
+  {
+    "name": "Bonaparte Downtown",
+    "description": "Dark wood, leather seating and strong pub energy make this feel like an old-school football pub transplanted into Porto. Great beer selection and a more mature crowd than some of the dedicated sports bars. Excellent for watching evening matches with a few pints rather than treating it like a party venue. Comfortable enough to settle in for an entire day's worth of World Cup football.",
+    "card_image": "Bonaparte.png",
+    "lat": 41.1469,
+    "lng": -8.6159
+  },
+  {
+    "name": "CLUB port rugby",
+    "description": "Slightly left-field but highly rated by locals who follow multiple sports. Rugby dominates the identity, but they regularly show football and big international tournaments. The atmosphere feels more like a sports clubhouse than a commercial sports bar, which gives it real character. Good choice if you want something authentic and less tourist-heavy. A place willing to put different sports on different screens.",
+    "card_image": "Rugby.png",
+    "lat": 41.1594,
+    "lng": -8.6703
+  },
+  {
+    "name": "The Rolling Sports Bar",
+    "description": "Modern sports bar setup with long opening hours and plenty of screens. A strong backup option if city-centre venues are packed during knockout matches. Casual, affordable and very sports-focused without trying to be trendy. Good place to catch late-night World Cup fixtures that run beyond midnight Portuguese time.",
+    "card_image": "Rolling.png",
+    "lat": 41.1780,
+    "lng": -8.5974
+  },
+  {
+    "name": "Alfredo Portista",
+    "description": "RECOMMENDED: This is less of a sports bar and more of an FC Porto shrine that happens to serve food and drinks. Tiny, chaotic, covered floor-to-ceiling in blue-and-white FC Porto memorabilia and packed with locals who look like they've been coming for decades. The bifanas, cod fritters and absurdly cheap wine are part of the experience, but the real attraction is soaking up genuine Porto football culture.",
+    "card_image": "Alfredo.png",
+    "lat": 41.1444,
+    "lng": -8.6061
+  }
+]

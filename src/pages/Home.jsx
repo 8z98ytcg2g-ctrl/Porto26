@@ -40,6 +40,9 @@ export default function Home() {
       </nav>
 
       <Link to="/legends" className="legends-nav-link">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle', position: 'relative', top: '-1px' }}>
+          <polygon points="0,0 12,6 0,12"/>
+        </svg>
         LEGENDS ALBUM
       </Link>
     </div>

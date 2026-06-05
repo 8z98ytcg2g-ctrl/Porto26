@@ -3,6 +3,8 @@ import BackButton from '../components/BackButton'
 
 const COLOR = '#F5C518'
 
+const ROTATIONS = [-2.1, 1.8, -1.2, 2.4, -0.8, 1.5, -2.6, 0.9, -1.7, 2.2]
+
 export default function Legends() {
   const [allLegends, setAllLegends] = useState([])
   const [discovered, setDiscovered] = useState([])
@@ -57,11 +59,17 @@ export default function Legends() {
           const isFound = discovered.includes(legend.card_image)
           return (
             <div key={i} className="legends-slide">
-              <img
-                src={isFound ? `/cards/${legend.card_image}` : '/cards/blank.png'}
-                alt={isFound ? 'Legend' : 'Undiscovered'}
-                className="legends-img"
-              />
+              <div className="legends-card">
+                <img src="/cards/blank.png" alt="" className="legends-blank" />
+                {isFound && (
+                  <img
+                    src={`/cards/${legend.card_image}`}
+                    alt="Legend"
+                    className="legends-sticker"
+                    style={{ transform: `rotate(${ROTATIONS[i % ROTATIONS.length]}deg)` }}
+                  />
+                )}
+              </div>
             </div>
           )
         })}

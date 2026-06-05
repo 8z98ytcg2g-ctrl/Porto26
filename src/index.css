@@ -262,10 +262,28 @@ img { display: block; }
   box-sizing: border-box;
 }
 
-.legends-img {
+.legends-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legends-blank {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.legends-sticker {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
 /* ─── Gaff fullscreen map ───────────────────────── */

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 const NAV = [
   { label: 'SPEAK', color: '#1A3A8F', path: '/speak', img: '/nav/speak.png?v=2' },
@@ -10,6 +11,13 @@ const NAV = [
 ]
 
 export default function Home() {
+  const [hasLegends, setHasLegends] = useState(false)
+
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem('porto26_legends') || '[]')
+    setHasLegends(saved.length > 0)
+  }, [])
+
   return (
     <div className="home">
       <div className="home-logo-wrap">
@@ -39,12 +47,12 @@ export default function Home() {
         ))}
       </nav>
 
-      <Link to="/legends" className="legends-nav-link">
+      {hasLegends && <Link to="/legends" className="legends-nav-link">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" style={{ marginRight: '8px', verticalAlign: 'middle', position: 'relative', top: '-1px' }}>
           <polygon points="0,0 12,6 0,12"/>
         </svg>
         LEGENDS ALBUM
-      </Link>
+      </Link>}
     </div>
   )
 }

@@ -225,6 +225,8 @@ img { display: block; }
 /* ─── Legends collection ────────────────────────── */
 .legends-page {
   background: #fff;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .legends-counter {
@@ -248,7 +250,7 @@ img { display: block; }
 .legends-scroll::-webkit-scrollbar { display: none; }
 
 .legends-slide {
-  height: calc(100vh - 84px);
+  height: 100%;
   scroll-snap-align: start;
   display: flex;
   align-items: center;

@@ -82,5 +82,96 @@
     "card_image": "Mercado.png",
     "lat": 41.1484,
     "lng": -8.6036
+  },
+  {
+    "name": "Yuko Tavern",
+    "description": "RECOMMENDED: One of the heavyweight contenders in Porto's eternal 'best francesinha' debate. The sauce is rich, spicy and fiercely defended by locals. More neighbourhood tavern than tourist hotspot, which adds to the appeal. Portions are enormous and you'll need a nap afterwards. Expect a lively local crowd and football on the TVs. Worth the journey if you're serious about francesinhas.",
+    "card_image": "Yuko.png",
+    "lat": 41.1704,
+    "lng": -8.5853
+  },
+  {
+    "name": "Camada",
+    "description": "RECOMMENDED: Modern, stylish and one of the city's most popular contemporary francesinha spots. Think traditional Porto comfort food delivered in a more polished setting. The sauce is slightly lighter than some rivals, making it easier to survive the experience. Excellent beer selection and central location. Great choice if you want your first francesinha in comfortable surroundings.",
+    "card_image": "Camada.png",
+    "lat": 41.1473,
+    "lng": -8.6150
+  },
+  {
+    "name": "Brasão Salgueiros",
+    "description": "RECOMMENDED: A newer branch of the Brasão group that delivers the same highly regarded francesinha experience as the city-centre locations. Spacious, modern and reliably excellent. The sauce is the main attraction and regularly ranks among Porto's favourites. Easier to get a table than some central branches. A safe recommendation for almost anyone.",
+    "card_image": "Salgueiros.png",
+    "lat": 41.1662,
+    "lng": -8.5942
+  },
+  {
+    "name": "Lage Senhor do Padrão",
+    "description": "RECOMMENDED: Gregg Wallace blocks your entrance into one of Matosinhos' seafood institutions. Known for huge portions of grilled fish, shellfish and traditional Portuguese dishes served without fuss. The atmosphere is classic coastal Portugal rather than trendy Porto dining. Great value considering the quality and quantity. Come hungry and don't over-order.",
+    "card_image": "Lage.png",
+    "lat": 41.1845,
+    "lng": -8.6886
+  },
+  {
+    "name": "Lulas Grelhadas",
+    "description": "RECOMMENDED: Not a restaurant but a dish worth seeking out. Grilled squid is one of the signature foods of the Porto coast and is at its best in Matosinhos. Smoky, fresh and usually served simply with potatoes and olive oil. If seafood is your thing, don't leave Porto without trying it. Some locals would choose this over lobster every time.",
+    "card_image": "Lulas.png",
+    "lat": 41.1820,
+    "lng": -8.6940
+  },
+  {
+    "name": "Papagaio",
+    "description": "RECOMMENDED: Beachfront drinks and food with Atlantic views. Popular for sunset sessions that accidentally become late evenings. The menu isn't trying to reinvent Portuguese cuisine, but that's not why you're here. You're here for cold drinks, sea air and a great atmosphere. One of the better spots in Foz for a relaxed evening.",
+    "card_image": "Papagaio.png",
+    "lat": 41.1545,
+    "lng": -8.6814
+  },
+  {
+    "name": "Restaurante Caetano",
+    "description": "RECOMMENDED: Traditional seafood restaurant loved by locals. Expect grilled fish displayed at the entrance and cooked over charcoal. Unpretentious service and a focus on freshness rather than presentation. Prices remain fair compared to some better-known seafood institutions. A strong choice for an authentic Matosinhos meal.",
+    "card_image": "Caetano.png",
+    "lat": 41.1807,
+    "lng": -8.6899
+  },
+  {
+    "name": "Solar Moinho de Vento",
+    "description": "RECOMMENDED: One of Porto's classic traditional restaurants. Rustic interiors, generous portions and a menu packed with northern Portuguese favourites. The roast meats and cod dishes are particularly popular. Feels like the sort of place families have been visiting for decades. Excellent value and a good escape from trendier dining spots.",
+    "card_image": "Solar.png",
+    "lat": 41.1484,
+    "lng": -8.6165
+  },
+  {
+    "name": "Cozinha do Manel",
+    "description": "RECOMMENDED: Frequently recommended by locals looking for proper Portuguese comfort food. Famous for roast goat, octopus and traditional northern dishes served in huge portions. Warm, old-school and completely uninterested in food trends. The sort of restaurant where every table seems to know exactly what they're ordering. Reservations are advisable.",
+    "card_image": "Manel.png",
+    "lat": 41.1450,
+    "lng": -8.5948
+  },
+  {
+    "name": "Rogério do Redondo",
+    "description": "RECOMMENDED: A local favourite for hearty Portuguese cooking away from the tourist centre. Generous portions, affordable prices and a reputation built almost entirely on word of mouth. Expect traditional meat dishes, grilled fish and a very local crowd. Not glamorous, but highly authentic. One for food lovers rather than Instagram.",
+    "card_image": "Redondo.png",
+    "lat": 41.1778,
+    "lng": -8.6338
+  },
+  {
+    "name": "Belos Aires",
+    "description": "RECOMMENDED: One of Porto's most consistently praised modern restaurants. Portuguese ingredients meet Argentine influences in a stylish but relaxed dining room. Excellent steaks, creative small plates and a strong wine list. A great option when you want something more refined without becoming formal. Booking ahead is recommended.",
+    "card_image": "Aires.png",
+    "lat": 41.1430,
+    "lng": -8.6147
+  },
+  {
+    "name": "Terminal 4450",
+    "description": "RECOMMENDED: Trendy industrial-style food and drinks venue popular with younger locals. Strong cocktail programme, good atmosphere and a more contemporary feel than many traditional Portuguese restaurants. Great for an evening that starts with drinks and naturally rolls into dinner. Particularly lively at weekends.",
+    "card_image": "4450.png",
+    "lat": 41.1835,
+    "lng": -8.6890
+  },
+  {
+    "name": "MUU Steakhouse",
+    "description": "RECOMMENDED: Widely regarded as one of the best steak restaurants in Porto. Premium cuts, excellent service and a sophisticated atmosphere without excessive formality. The tasting menu is particularly popular for first-time visitors. More expensive than most restaurants on this list, but many visitors consider it worth every euro. Ideal for a special meal or final-night dinner.",
+    "card_image": "",
+    "lat": 41.1485,
+    "lng": -8.6128
   }
 ]

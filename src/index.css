@@ -84,6 +84,18 @@ img { display: block; }
   object-position: left center;
 }
 
+.nav-word-text {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 72px;
+  height: 72px;
+  letter-spacing: 0.04em;
+  -webkit-text-stroke: 2.5px currentColor;
+  color: transparent;
+  display: block;
+}
+
 /* sticker slot decorations */
 .sticker-slots {
   position: absolute;

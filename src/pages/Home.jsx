@@ -6,7 +6,7 @@ const NAV = [
   { label: 'DRINK', color: '#F5C518', path: '/drink',  img: '/nav/drink.png?v=2' },
   { label: 'WATCH', color: '#D42B2B', path: '/watch',  img: '/nav/watch.png?v=2' },
   { label: 'DO',      color: '#E87722', path: '/do',      img: '/nav/do.png?v=2'      },
-  { label: 'LEGENDS', color: '#F5C518', path: '/legends', img: '/nav/legends.png?v=2' },
+  { label: 'LEGENDS', color: '#F5C518', path: '/legends', textOnly: true },
   { label: 'GAFF',    color: '#00A896', path: '/gaff',    img: '/nav/gaff.png?v=2'    },
 ]
 
@@ -35,7 +35,11 @@ export default function Home() {
             className="nav-item"
             style={{ '--c': item.color }}
           >
-            <img src={item.img} alt={item.label} className="nav-word-img" />
+            {item.textOnly ? (
+              <div className="nav-word-text" style={{ color: item.color }}>{item.label}</div>
+            ) : (
+              <img src={item.img} alt={item.label} className="nav-word-img" />
+            )}
           </Link>
         ))}
       </nav>

@@ -36,7 +36,7 @@ export default function Home() {
             style={{ '--c': item.color }}
           >
             {item.textOnly ? (
-              <div className="nav-word-text" style={{ color: item.color }}>{item.label}</div>
+              <div className="nav-word-text" style={{ WebkitTextStroke: `2.5px ${item.color}` }}>{item.label}</div>
             ) : (
               <img src={item.img} alt={item.label} className="nav-word-img" />
             )}

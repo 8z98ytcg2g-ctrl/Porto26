@@ -1,10 +1,12 @@
 import { useEffect, useState, useRef } from 'react'
 import confetti from 'canvas-confetti'
+import { useNavigate } from 'react-router-dom'
 import BackButton from './BackButton'
 import MapView from './MapView'
 import { shuffle } from '../utils/shuffle'
 
 export default function CardPage({ title, color, dataUrl, ticker }) {
+  const navigate = useNavigate()
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
   const [activeIndex, setActiveIndex] = useState(0)
@@ -154,9 +156,9 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
                   <div className="legend-album-wrap">
                     <button
                       className={`legend-album-btn${alreadySaved ? ' saved' : ''}`}
-                      onClick={addToAlbum}
+                      onClick={alreadySaved ? () => navigate('/legends') : addToAlbum}
                     >
-                      {alreadySaved ? '✓ ADDED TO LEGEND ALBUM' : 'ADD TO LEGEND ALBUM'}
+                      {alreadySaved ? 'GO TO LEGEND ALBUM →' : 'ADD TO LEGEND ALBUM'}
                     </button>
                   </div>
                 )}

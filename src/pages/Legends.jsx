@@ -45,14 +45,11 @@ export default function Legends() {
     <div className="page legends-page" style={{ '--accent': COLOR }}>
       <header className="page-header">
         <h1 className="page-title">LEGENDS</h1>
+        {allLegends.length > 0 && (
+          <span className="legends-counter">{activeIndex + 1} / {allLegends.length}</span>
+        )}
         <BackButton color={COLOR} />
       </header>
-
-      {allLegends.length > 0 && (
-        <div className="legends-counter">
-          {activeIndex + 1} / {allLegends.length}
-        </div>
-      )}
 
       <div className="legends-scroll" ref={scrollRef}>
         {allLegends.map((legend, i) => {

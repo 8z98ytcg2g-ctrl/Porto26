@@ -363,6 +363,29 @@ img { display: block; }
 .card-desc-name.is-legend {
   text-align: center;
 }
+
+.legend-album-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 4px;
+}
+
+.legend-album-btn {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 9px 18px;
+  border-radius: 4px;
+  border: 2px solid #F5C518;
+  background: #F5C518;
+  color: #1a1208;
+  transition: opacity 0.15s;
+}
+.legend-album-btn.saved {
+  background: transparent;
+  color: #F5C518;
+}
 .card-desc-text {
   font-family: 'Chakra Petch', sans-serif;
   font-size: 0.85rem;

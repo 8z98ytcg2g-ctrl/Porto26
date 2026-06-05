@@ -80,15 +80,19 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
   }, [loading, items.length])
 
   const activeItem = items[activeIndex]
+  const [savedLegends, setSavedLegends] = useState(() =>
+    JSON.parse(localStorage.getItem('porto26_legends') || '[]')
+  )
 
-  // Save legend to localStorage when one becomes the active card
-  useEffect(() => {
-    if (!activeItem?._isLegend || !activeItem.card_image) return
-    const saved = JSON.parse(localStorage.getItem('porto26_legends') || '[]')
-    if (!saved.includes(activeItem.card_image)) {
-      localStorage.setItem('porto26_legends', JSON.stringify([...saved, activeItem.card_image]))
-    }
-  }, [activeItem])
+  function addToAlbum() {
+    if (!activeItem?.card_image) return
+    if (savedLegends.includes(activeItem.card_image)) return
+    const updated = [...savedLegends, activeItem.card_image]
+    localStorage.setItem('porto26_legends', JSON.stringify(updated))
+    setSavedLegends(updated)
+  }
+
+  const alreadySaved = activeItem?._isLegend && savedLegends.includes(activeItem.card_image)
   const pins = (activeItem && activeItem.lat != null)
     ? [{ lat: activeItem.lat, lng: activeItem.lng, name: activeItem.name }]
     : []
@@ -135,6 +139,16 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
                 <div className={`card-desc-name${activeItem._isLegend ? ' is-legend' : ''}`}>
                   {activeItem._isLegend ? 'YOU HAVE FOUND A LEGEND CARD!!' : activeItem.name}
                 </div>
+                {activeItem._isLegend && (
+                  <div className="legend-album-wrap">
+                    <button
+                      className={`legend-album-btn${alreadySaved ? ' saved' : ''}`}
+                      onClick={addToAlbum}
+                    >
+                      {alreadySaved ? '✓ ADDED TO LEGEND ALBUM' : 'ADD TO LEGEND ALBUM'}
+                    </button>
+                  </div>
+                )}
                 {activeItem.description && (
                   <div className="card-desc-text">{activeItem.description}</div>
                 )}

@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
+import confetti from 'canvas-confetti'
 import BackButton from './BackButton'
 import MapView from './MapView'
 import { shuffle } from '../utils/shuffle'
@@ -90,6 +91,16 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
     const updated = [...savedLegends, activeItem.card_image]
     localStorage.setItem('porto26_legends', JSON.stringify(updated))
     setSavedLegends(updated)
+
+    confetti({
+      particleCount: 160,
+      spread: 80,
+      origin: { y: 0.3 },
+      colors: ['#F5C518', '#ffffff', '#1A3A8F', '#D42B2B', '#2A7A3B'],
+      startVelocity: 45,
+      gravity: 0.8,
+      ticks: 200,
+    })
   }
 
   const alreadySaved = activeItem?._isLegend && savedLegends.includes(activeItem.card_image)

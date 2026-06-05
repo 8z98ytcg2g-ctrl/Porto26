@@ -11,8 +11,10 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
   const [loading, setLoading] = useState(true)
   const [activeIndex, setActiveIndex] = useState(0)
   const [descVisible, setDescVisible] = useState(true)
+  const [zoomedImg, setZoomedImg] = useState(null)
   const scrollRef = useRef(null)
   const activeIndexRef = useRef(0)
+  const lastTapRef = useRef(0)
   const scrollDebounceRef = useRef(null)
   const fadeTimerRef = useRef(null)
 
@@ -132,9 +134,24 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
         <div className="loading-state">LOADING…</div>
       ) : (
         <>
+          {zoomedImg && (
+            <div className="sticker-zoom-overlay" onClick={() => setZoomedImg(null)}>
+              <img src={zoomedImg} alt="Zoomed sticker" className="sticker-zoom-img" />
+              <button className="sticker-zoom-close">✕</button>
+            </div>
+          )}
+
           <div className="sticker-scroll" ref={scrollRef}>
-            {items.map((item, i) => (
-              <div key={i} className="sticker-slide">
+            {items.map((item, i) => {
+              const handleTap = () => {
+                const now = Date.now()
+                if (now - lastTapRef.current < 300 && item.card_image) {
+                  setZoomedImg(`/cards/${item.card_image}`)
+                }
+                lastTapRef.current = now
+              }
+              return (
+              <div key={i} className="sticker-slide" onClick={handleTap}>
                 {item.card_image && (
                   <img
                     src={`/cards/${item.card_image}`}
@@ -143,7 +160,7 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
                   />
                 )}
               </div>
-            ))}
+            )})}
           </div>
 
           <div className="card-desc-panel" style={{ opacity: descVisible ? 1 : 0 }}>

@@ -27,7 +27,7 @@ export default function Legends() {
     const onScroll = () => {
       clearTimeout(debounceRef.current)
       debounceRef.current = setTimeout(() => {
-        const idx = Math.round(el.scrollTop / el.clientHeight)
+        const idx = Math.round(el.scrollLeft / el.clientWidth)
         setActiveIndex(Math.max(0, Math.min(idx, allLegends.length - 1)))
       }, 80)
     }

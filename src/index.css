@@ -242,15 +242,18 @@ img { display: block; }
 
 .legends-scroll {
   flex: 1;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
 .legends-scroll::-webkit-scrollbar { display: none; }
 
 .legends-slide {
-  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
   scroll-snap-align: start;
   display: flex;
   align-items: center;

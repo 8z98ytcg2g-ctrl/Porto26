@@ -6,6 +6,7 @@ import Drink from './pages/Drink'
 import Watch from './pages/Watch'
 import Do from './pages/Do'
 import Gaff from './pages/Gaff'
+import Legends from './pages/Legends'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/watch" element={<Watch />} />
         <Route path="/do" element={<Do />} />
         <Route path="/gaff" element={<Gaff />} />
+        <Route path="/legends" element={<Legends />} />
       </Routes>
     </Router>
   )

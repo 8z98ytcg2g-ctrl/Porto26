@@ -220,6 +220,36 @@ img { display: block; }
   100% { transform: translateX(-50%); }
 }
 
+/* ─── Legends collection ────────────────────────── */
+.legends-page {
+  background: #fff;
+}
+
+.legends-scroll {
+  flex: 1;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.legends-scroll::-webkit-scrollbar { display: none; }
+
+.legends-slide {
+  height: calc(100vh - 52px);
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.legends-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 /* ─── Gaff fullscreen map ───────────────────────── */
 .gaff-page {
   height: 100vh;

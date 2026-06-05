@@ -80,6 +80,15 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
   }, [loading, items.length])
 
   const activeItem = items[activeIndex]
+
+  // Save legend to localStorage when one becomes the active card
+  useEffect(() => {
+    if (!activeItem?._isLegend || !activeItem.card_image) return
+    const saved = JSON.parse(localStorage.getItem('porto26_legends') || '[]')
+    if (!saved.includes(activeItem.card_image)) {
+      localStorage.setItem('porto26_legends', JSON.stringify([...saved, activeItem.card_image]))
+    }
+  }, [activeItem])
   const pins = (activeItem && activeItem.lat != null)
     ? [{ lat: activeItem.lat, lng: activeItem.lng, name: activeItem.name }]
     : []

@@ -227,6 +227,17 @@ img { display: block; }
   background: #fff;
 }
 
+.legends-counter {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-align: center;
+  padding: 6px 0;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+}
+
 .legends-scroll {
   flex: 1;
   overflow-y: scroll;
@@ -237,7 +248,7 @@ img { display: block; }
 .legends-scroll::-webkit-scrollbar { display: none; }
 
 .legends-slide {
-  height: calc(100vh - 52px);
+  height: calc(100vh - 84px);
   scroll-snap-align: start;
   display: flex;
   align-items: center;

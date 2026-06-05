@@ -78,8 +78,10 @@ img { display: block; }
 
 .nav-word-img {
   width: 100%;
-  height: auto;
+  height: 72px;
   display: block;
+  object-fit: contain;
+  object-position: left center;
 }
 
 /* sticker slot decorations */

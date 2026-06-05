@@ -84,6 +84,21 @@ img { display: block; }
   object-position: left center;
 }
 
+.legends-nav-link {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #F5C518;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0 20px;
+  display: block;
+  width: 100%;
+  transition: opacity 0.15s;
+}
+.legends-nav-link:active { opacity: 0.6; }
+
 .nav-word-text {
   font-family: 'Orbitron', sans-serif;
   font-weight: 900;

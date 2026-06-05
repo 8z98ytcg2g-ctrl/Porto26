@@ -40,7 +40,7 @@ export default function Home() {
       </nav>
 
       <Link to="/legends" className="legends-nav-link">
-        LEGENDS
+        LEGENDS ALBUM
       </Link>
     </div>
   )

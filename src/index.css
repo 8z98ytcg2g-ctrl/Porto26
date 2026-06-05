@@ -259,7 +259,7 @@ img { display: block; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 8px;
   box-sizing: border-box;
 }
 

@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { height: 100%; -webkit-tap-highlight-color: transparent; }
 body {
-  background: #F5EDD6;
+  background: #ffffff;
   font-family: 'Chakra Petch', sans-serif;
   color: #2a2015;
   min-height: 100vh;

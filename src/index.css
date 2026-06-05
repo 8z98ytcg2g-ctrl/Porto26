@@ -408,6 +408,20 @@ img { display: block; }
 .sticker-slide:nth-child(10) .sticker-img { transform: rotate(1.9deg); }
 .sticker-slide:nth-child(11) .sticker-img { transform: rotate(-2.1deg); }
 .sticker-slide:nth-child(12) .sticker-img { transform: rotate(0.5deg); }
+.sticker-slide:nth-child(13) .sticker-img { transform: rotate(-1.4deg); }
+.sticker-slide:nth-child(14) .sticker-img { transform: rotate(2.3deg); }
+.sticker-slide:nth-child(15) .sticker-img { transform: rotate(-0.9deg); }
+.sticker-slide:nth-child(16) .sticker-img { transform: rotate(1.7deg); }
+.sticker-slide:nth-child(17) .sticker-img { transform: rotate(-2.2deg); }
+.sticker-slide:nth-child(18) .sticker-img { transform: rotate(0.6deg); }
+.sticker-slide:nth-child(19) .sticker-img { transform: rotate(-1.6deg); }
+.sticker-slide:nth-child(20) .sticker-img { transform: rotate(2.1deg); }
+.sticker-slide:nth-child(21) .sticker-img { transform: rotate(-0.7deg); }
+.sticker-slide:nth-child(22) .sticker-img { transform: rotate(1.3deg); }
+.sticker-slide:nth-child(23) .sticker-img { transform: rotate(-2.3deg); }
+.sticker-slide:nth-child(24) .sticker-img { transform: rotate(0.9deg); }
+.sticker-slide:nth-child(25) .sticker-img { transform: rotate(-1.1deg); }
+.sticker-slide:nth-child(26) .sticker-img { transform: rotate(2deg); }
 
 /* ─── Active card description panel ─────────────── */
 .card-desc-panel {

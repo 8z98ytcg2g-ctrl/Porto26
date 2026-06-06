@@ -63,6 +63,13 @@
     "lng": -8.6764
   },
   {
+    "name": "Taylor's Port Cellars",
+    "description": "The grand old dame of Porto's port lodges and one of the most prestigious names in port wine since 1692. Perched above Gaia with spectacular views back across Porto, it combines historic cellars, informative tours and some of the finest port tastings in the city. The gardens and terrace are worth the visit alone, especially on a sunny afternoon. More refined and less hectic than some of the riverfront lodges, making it ideal for a relaxed tasting experience. Allow 1.5–2 hours and book ahead during peak season.",
+    "card_image": "Taylors.png",
+    "lat": 41.1339,
+    "lng": -8.6215
+  },
+{
     "name": "Praia de Matosinhos",
     "description": "The best all-round beach near Porto. Huge sandy stretch, surf schools, beach bars and easy access to seafood restaurants like O Valentim afterwards. Popular with locals rather than just tourists. Great choice if you want an actual beach day rather than a quick photo stop. Surf lessons are widely available.",
     "card_image": "Matosinhos.png",

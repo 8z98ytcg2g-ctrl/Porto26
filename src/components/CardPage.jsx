@@ -168,6 +168,16 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
               <>
                 <div className={`card-desc-name${activeItem._isLegend ? ' is-legend' : ''}`}>
                   {activeItem._isLegend ? 'YOU HAVE FOUND A LEGEND STICKER!!' : activeItem.name}
+                  {activeItem.link && !activeItem._isLegend && (
+                    <a
+                      href={activeItem.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="card-menu-link"
+                    >
+                      MENU ↗
+                    </a>
+                  )}
                 </div>
                 {activeItem._isLegend && (
                   <div className="legend-album-wrap">

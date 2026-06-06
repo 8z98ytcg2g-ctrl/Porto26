@@ -4,14 +4,16 @@
     "description": "RECOMMENDED: Porto's cult snack-bar and arguably the city's most famous late-night food stop. The legendary cachorrinhos (crispy grilled hot dogs sliced into bite-sized pieces) are the reason you come, ideally with fries and an ice-cold Super Bock. It's loud, cramped, energetic and packed with both locals and tourists hunting a proper Porto experience. Anthony Bourdain helped put it on the map and locals still swear by it. Very affordable and usually no reservations – expect queues at peak times.",
     "card_image": "Gazela.png",
     "lat": 41.1468,
-    "lng": -8.6065
+    "lng": -8.6065,
+    "link": "https://cervejariagazela.pt/menu.pdf"
   },
   {
     "name": "Casa Guedes Tradicional",
     "description": "RECOMMENDED: If Porto had an official sandwich, this place might own it. The slow-roasted pork sandwich with Serra da Estrela cheese is absurdly good and worth building an afternoon around. Casual, bustling and packed from lunch through late evening with a constant stream of hungry locals and visitors. Prices stay refreshingly reasonable given the reputation. Go to the original location for the classic experience and prepare to leave smelling faintly of roast pork and happiness.",
     "card_image": "Guedes.png",
     "lat": 41.1458,
-    "lng": -8.6049
+    "lng": -8.6049,
+    "link": "https://casaguedes.pt/menu/"
   },
   {
     "name": "Conga",
@@ -32,25 +34,28 @@
     "description": "RECOMMENDED: The place to go when you want a gourmet Portuguese steak sandwich instead of another francesinha. Stylish without being pretentious, with a lively terrace that's perfect for people-watching. Their prego sandwiches are rich, juicy and dangerously easy to order twice. Great cocktails and sharing plates make it a strong evening option. Mid-range prices and a fun atmosphere near Ribeira.",
     "card_image": "Baixa.png",
     "lat": 41.1413,
-    "lng": -8.6154
+    "lng": -8.6154,
+    "link": "https://restaurantguru.com/Pregar-Porto/menu"
   },
   {
     "name": "NOLA KITCHEN",
     "description": "RECOMMENDED FOR VEGGIES: When you need a break from pork, cheese and beer, this is your reset button. Bright, modern and Instagram-friendly, serving excellent brunches, smoothie bowls and healthy plates without feeling worthy or dull. Popular with digital nomads like Russ and travellers looking for lighter food. Portions are generous and presentation is excellent. Great breakfast or brunch choice and open throughout the day.",
     "card_image": "Nola.png",
     "lat": 41.1470,
-    "lng": -8.6125
+    "lng": -8.6125,
+    "link": "https://nola.com.pt/menu-en"
   },
   {
     "name": "O Valentim",
     "description": "RECOMMENDED: Worth the trip out to Matosinhos for some of the best seafood around Porto. Expect charcoal-grilled fish, giant prawns and seafood platters served in a bustling, traditional dining room. The vibe is authentic fishing-town Portugal rather than polished city-centre Porto. Prices are fair considering the quality and freshness. Ideal for a long lunch after walking along the coast.",
     "card_image": "Valentim.png",
     "lat": 41.1828,
-    "lng": -8.6967
+    "lng": -8.6967,
+    "link": "https://software.movelife.net/en-GB/Menus/Public/_BAR_9LLepdZdIU%3D"
   },
   {
     "name": "CURB",
-    "description": "RECOMMENDED: One of Porto's best modern burger spots. Small, stylish and focused on quality rather than gimmicks, with smashed burgers that regularly appear on local 'best burger' lists. Relaxed neighbourhood feel, craft beers and consistently strong execution. Perfect for a casual dinner when Portuguese food fatigue kicks in. Often busy despite the tucked-away location.Once the burgers have sold for the day it closes",
+    "description": "RECOMMENDED: One of Porto's best modern burger spots. Small, stylish and focused on quality rather than gimmicks, with smashed burgers that regularly appear on local 'best burger' lists. Relaxed neighbourhood feel, craft beers and consistently strong execution. Perfect for a casual dinner when Portuguese food fatigue kicks in. Often busy despite the tucked-away location. Once the burgers have sold for the day it closes.",
     "card_image": "Curb.png",
     "lat": 41.1526,
     "lng": -8.6192
@@ -60,21 +65,24 @@
     "description": "RECOMMENDED: A Porto classic famous for roast goat, served in huge portions to tables full of locals. Traditional, slightly old-school and proudly unchanged by food trends. The goat is incredibly tender and the reason almost everyone is there. Come hungry and expect a proper Portuguese family-meal atmosphere. Reservations are advisable for dinner.",
     "card_image": "Antunes.png",
     "lat": 41.1518,
-    "lng": -8.6108
+    "lng": -8.6108,
+    "link": "https://weur-cdn.cardapio.menu/storage/media/companies_menu_pdf/114456502/restaurante-antunes-porto-cardapio.pdf"
   },
   {
     "name": "Cozinha das Flores",
     "description": "GOING ON FRIDAY: One of Porto's most acclaimed modern restaurants, blending Portuguese ingredients with a refined but relaxed approach. The room feels stylish and contemporary without becoming stuffy. Expect beautifully executed seasonal dishes rather than traditional comfort food. Service is polished and the wine list is excellent. This is your 'special meal' booking while in Porto. Booking well ahead is strongly recommended.",
     "card_image": "Flores.png",
     "lat": 41.1429,
-    "lng": -8.6145
+    "lng": -8.6145,
+    "link": "https://cozinhadasflores.com/wp-content/uploads/sites/3/2026/04/cdf-sample-menu_EN.pdf"
   },
   {
     "name": "Tapabento",
     "description": "RECOMMENDED: A small, hugely popular restaurant hidden near São Bento Station that consistently punches above its weight. Creative tapas, seafood, sushi-inspired dishes and excellent service create a memorable experience. The atmosphere is intimate and energetic, making it perfect for date night or a celebratory dinner. It regularly appears on Porto food shortlists for good reason. Reservations are essential if you want a table at a sensible hour.",
     "card_image": "Tapabento.png",
     "lat": 41.1465,
-    "lng": -8.6107
+    "lng": -8.6107,
+    "link": "https://tapabento.com/en/menu/"
   },
   {
     "name": "Mercado do Bolhão",
@@ -102,14 +110,16 @@
     "description": "RECOMMENDED: A newer branch of the Brasão group that delivers the same highly regarded francesinha experience as the city-centre locations. Spacious, modern and reliably excellent. The sauce is the main attraction and regularly ranks among Porto's favourites. Easier to get a table than some central branches. A safe recommendation for almost anyone.",
     "card_image": "Salgueiros.png",
     "lat": 41.1662,
-    "lng": -8.5942
+    "lng": -8.5942,
+    "link": "https://brasao.pt/qr/salgueiros/Carta-EN.pdf"
   },
   {
     "name": "Lage Senhor do Padrão",
     "description": "RECOMMENDED: Gregg Wallace blocks your entrance into one of Matosinhos' seafood institutions. Known for huge portions of grilled fish, shellfish and traditional Portuguese dishes served without fuss. The atmosphere is classic coastal Portugal rather than trendy Porto dining. Great value considering the quality and quantity. Come hungry and don't over-order.",
     "card_image": "Lage.png",
     "lat": 41.1845,
-    "lng": -8.6886
+    "lng": -8.6886,
+    "link": "https://restaurantelagesenhordopadrao.restaurants-us.com/menu"
   },
   {
     "name": "Lulas Grelhadas",
@@ -123,55 +133,63 @@
     "description": "RECOMMENDED: Beachfront drinks and food with Atlantic views. Popular for sunset sessions that accidentally become late evenings. The menu isn't trying to reinvent Portuguese cuisine, but that's not why you're here. You're here for cold drinks, sea air and a great atmosphere. One of the better spots in Foz for a relaxed evening.",
     "card_image": "Papagaio.png",
     "lat": 41.1545,
-    "lng": -8.6814
+    "lng": -8.6814,
+    "link": "https://restaurantepapagaio.pt/menu"
   },
   {
     "name": "Restaurante Caetano",
     "description": "RECOMMENDED: Traditional seafood restaurant loved by locals. Expect grilled fish displayed at the entrance and cooked over charcoal. Unpretentious service and a focus on freshness rather than presentation. Prices remain fair compared to some better-known seafood institutions. A strong choice for an authentic Matosinhos meal.",
     "card_image": "Caetano.png",
     "lat": 41.1807,
-    "lng": -8.6899
+    "lng": -8.6899,
+    "link": "https://www.restaurantecaetano.pt/wp-content/uploads/Di%C3%A1ria.pdf"
   },
   {
     "name": "Solar Moinho de Vento",
     "description": "RECOMMENDED: One of Porto's classic traditional restaurants. Rustic interiors, generous portions and a menu packed with northern Portuguese favourites. The roast meats and cod dishes are particularly popular. Feels like the sort of place families have been visiting for decades. Excellent value and a good escape from trendier dining spots.",
     "card_image": "Solar.png",
     "lat": 41.1484,
-    "lng": -8.6165
+    "lng": -8.6165,
+    "link": "https://www.solarmoinhodevento.com/en/menu/"
   },
   {
     "name": "Cozinha do Manel",
     "description": "RECOMMENDED: Frequently recommended by locals looking for proper Portuguese comfort food. Famous for roast goat, octopus and traditional northern dishes served in huge portions. Warm, old-school and completely uninterested in food trends. The sort of restaurant where every table seems to know exactly what they're ordering. Reservations are advisable.",
     "card_image": "Manel.png",
     "lat": 41.1450,
-    "lng": -8.5948
+    "lng": -8.5948,
+    "link": "https://portugalconfidential.com/cozinha-do-manel-traditional-portuguese-porto/"
   },
   {
     "name": "Rogério do Redondo",
     "description": "RECOMMENDED: A local favourite for hearty Portuguese cooking away from the tourist centre. Generous portions, affordable prices and a reputation built almost entirely on word of mouth. Expect traditional meat dishes, grilled fish and a very local crowd. Not glamorous, but highly authentic. One for food lovers rather than Instagram.",
     "card_image": "Redondo.png",
     "lat": 41.1778,
-    "lng": -8.6338
+    "lng": -8.6338,
+    "link": "https://www.rogeriodoredondo.pt/menu-e-vinhos/"
   },
   {
     "name": "Belos Aires",
     "description": "RECOMMENDED: One of Porto's most consistently praised modern restaurants. Portuguese ingredients meet Argentine influences in a stylish but relaxed dining room. Excellent steaks, creative small plates and a strong wine list. A great option when you want something more refined without becoming formal. Booking ahead is recommended.",
     "card_image": "Aires.png",
     "lat": 41.1430,
-    "lng": -8.6147
+    "lng": -8.6147,
+    "link": "https://static1.squarespace.com/static/6383a79c347e214d6a84616b/t/69bc485d06ea8f44c7e6efc9/1773946973218/Menu+Belos+Aires+-+Mar+26.pdf"
   },
   {
     "name": "Terminal 4450",
     "description": "RECOMMENDED: Trendy industrial-style food and drinks venue popular with younger locals. Strong cocktail programme, good atmosphere and a more contemporary feel than many traditional Portuguese restaurants. Great for an evening that starts with drinks and naturally rolls into dinner. Particularly lively at weekends.",
     "card_image": "4450.png",
     "lat": 41.1835,
-    "lng": -8.6890
+    "lng": -8.6890,
+    "link": "https://terminal.com.pt/docs/carta_4450.pdf"
   },
   {
     "name": "MUU Steakhouse",
     "description": "RECOMMENDED: Widely regarded as one of the best steak restaurants in Porto. Premium cuts, excellent service and a sophisticated atmosphere without excessive formality. The tasting menu is particularly popular for first-time visitors. More expensive than most restaurants on this list, but many visitors consider it worth every euro. Ideal for a special meal or final-night dinner.",
     "card_image": "MUU.png",
     "lat": 41.1485,
-    "lng": -8.6128
+    "lng": -8.6128,
+    "link": "https://www.muusteakhouse.com/"
   }
 ]

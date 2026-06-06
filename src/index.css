@@ -471,6 +471,20 @@ img { display: block; }
   color: #1a1208;
   letter-spacing: 0.05em;
   margin-bottom: 6px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.card-menu-link {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .card-desc-name.is-legend {
   text-align: center;

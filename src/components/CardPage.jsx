@@ -175,7 +175,7 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
                       rel="noopener noreferrer"
                       className="card-menu-link"
                     >
-                      MENU ↗
+                      {activeItem.linkLabel || 'MENU ↗'}
                     </a>
                   )}
                 </div>

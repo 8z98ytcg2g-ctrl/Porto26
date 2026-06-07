@@ -69,7 +69,16 @@
     "lat": 41.1339,
     "lng": -8.6215
   },
-{
+  {
+    "name": "Primavera Sound",
+    "description": "One of Europe's best music festivals comes to Porto every June, taking over the Parque da Cidade with an exceptional lineup across multiple stages. A genuine world-class festival experience with a distinctly Porto atmosphere — warm evenings, good food and an incredibly diverse crowd. Check the lineup and set times before you go.",
+    "card_image": "Prima.png",
+    "lat": 41.1648,
+    "lng": -8.6792,
+    "link": "https://www.primaverasound.com/en/porto/lineup-porto",
+    "linkLabel": "SET TIMES ↗"
+  },
+  {
     "name": "Praia de Matosinhos",
     "description": "The best all-round beach near Porto. Huge sandy stretch, surf schools, beach bars and easy access to seafood restaurants like O Valentim afterwards. Popular with locals rather than just tourists. Great choice if you want an actual beach day rather than a quick photo stop. Surf lessons are widely available.",
     "card_image": "Matosinhos.png",

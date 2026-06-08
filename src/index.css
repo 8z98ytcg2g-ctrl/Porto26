@@ -487,6 +487,7 @@ img { display: block; }
   flex-shrink: 0;
 }
 .card-desc-name.is-legend {
+  display: block;
   text-align: center;
 }
 

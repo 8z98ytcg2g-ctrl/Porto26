@@ -1,5 +1,5 @@
 [
-  { "card_image": "balls.png",    "weight": 3 },
+  { "card_image": "russ.png",     "weight": 3 },
   { "card_image": "grogan.png",   "weight": 3 },
   { "card_image": "harris.png",   "weight": 3 },
   { "card_image": "neil.png",     "weight": 1 },
@@ -7,6 +7,6 @@
   { "card_image": "seston.png",   "weight": 1 },
   { "card_image": "fish.png",     "weight": 3 },
   { "card_image": "mugford.png",  "weight": 3 },
-  { "card_image": "russ.png",     "weight": 3 },
+  { "card_image": "balls.png",    "weight": 3 },
   { "card_image": "holmes.png",   "weight": 1 }
 ]

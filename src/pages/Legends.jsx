@@ -3,7 +3,7 @@ import BackButton from '../components/BackButton'
 
 const COLOR = '#F5C518'
 
-const ROTATIONS = [-2.1, 1.8, -1.2, 2.4, -0.8, 1.5, -2.6, 0.9, -1.7, 2.2]
+const ROTATIONS = [-2.1, 1.8, -1.2, 2.4, -0.8, 1.5, -2.6, 0.9, -1.7, 2.2, -1.4, 2.0]
 
 export default function Legends() {
   const [allLegends, setAllLegends] = useState([])
@@ -54,10 +54,14 @@ export default function Legends() {
       <div className="legends-scroll" ref={scrollRef}>
         {allLegends.map((legend, i) => {
           const isFound = discovered.includes(legend.card_image)
+          const isMega = legend.mega === true
           return (
             <div key={i} className="legends-slide">
-              <div className="legends-card">
+              <div className={`legends-card${isMega && !isFound ? ' mega-locked' : ''}`}>
                 <img src="/cards/blank.png" alt="" className="legends-blank" />
+                {isMega && !isFound && (
+                  <div className="mega-lock-label">MEGA LEGEND<br />LOCKED</div>
+                )}
                 {isFound && (
                   <img
                     src={`/cards/${legend.card_image}`}

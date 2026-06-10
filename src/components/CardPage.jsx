@@ -12,11 +12,13 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
   const [activeIndex, setActiveIndex] = useState(0)
   const [descVisible, setDescVisible] = useState(true)
   const [zoomedImg, setZoomedImg] = useState(null)
+  const [megaUnlocked, setMegaUnlocked] = useState(false)
   const scrollRef = useRef(null)
   const activeIndexRef = useRef(0)
   const lastTapRef = useRef(0)
   const scrollDebounceRef = useRef(null)
   const fadeTimerRef = useRef(null)
+  const regularLegendCountRef = useRef(10)
 
   useEffect(() => {
     let cancelled = false
@@ -31,9 +33,11 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
         if (cancelled) return
         const shuffled = shuffle(data)
         if (legends && legends.length > 0) {
-          const totalWeight = legends.reduce((sum, l) => sum + (l.weight ?? 1), 0)
+          const regularLegends = legends.filter(l => !l.mega)
+          regularLegendCountRef.current = regularLegends.length
+          const totalWeight = regularLegends.reduce((sum, l) => sum + (l.weight ?? 1), 0)
           let rand = Math.random() * totalWeight
-          const picked = legends.find(l => (rand -= (l.weight ?? 1)) < 0) || legends[0]
+          const picked = regularLegends.find(l => (rand -= (l.weight ?? 1)) < 0) || regularLegends[0]
           const legend = { ...picked, _isLegend: true }
           const insertIdx = Math.floor(Math.random() * (shuffled.length + 1))
           shuffled.splice(insertIdx, 0, legend)
@@ -93,18 +97,33 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
     if (!activeItem?.card_image) return
     if (savedLegends.includes(activeItem.card_image)) return
     const updated = [...savedLegends, activeItem.card_image]
-    localStorage.setItem('porto26_legends', JSON.stringify(updated))
-    setSavedLegends(updated)
+    const regularCount = regularLegendCountRef.current
+    const isComplete = updated.length >= regularCount
 
-    confetti({
-      particleCount: 160,
-      spread: 80,
-      origin: { y: 0.3 },
-      colors: ['#F5C518', '#ffffff', '#1A3A8F', '#D42B2B', '#2A7A3B'],
-      startVelocity: 45,
-      gravity: 0.8,
-      ticks: 200,
-    })
+    if (isComplete) {
+      // Unlock mega legends
+      const withMega = [...new Set([...updated, 'manu.png', 'phil.png'])]
+      localStorage.setItem('porto26_legends', JSON.stringify(withMega))
+      setSavedLegends(withMega)
+      setMegaUnlocked(true)
+      // Gold ticker-tape confetti
+      const goldColors = ['#FFD700', '#FFA500', '#FFE566', '#ffffff', '#FFEC8B']
+      confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0, y: 0.4 }, colors: goldColors, startVelocity: 55, gravity: 0.7, ticks: 250 })
+      confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1, y: 0.4 }, colors: goldColors, startVelocity: 55, gravity: 0.7, ticks: 250 })
+      setTimeout(() => confetti({ particleCount: 120, spread: 90, origin: { y: 0.2 }, colors: goldColors, startVelocity: 60, gravity: 0.6, ticks: 300 }), 300)
+    } else {
+      localStorage.setItem('porto26_legends', JSON.stringify(updated))
+      setSavedLegends(updated)
+      confetti({
+        particleCount: 160,
+        spread: 80,
+        origin: { y: 0.3 },
+        colors: ['#F5C518', '#ffffff', '#1A3A8F', '#D42B2B', '#2A7A3B'],
+        startVelocity: 45,
+        gravity: 0.8,
+        ticks: 200,
+      })
+    }
   }
 
   const alreadySaved = activeItem?._isLegend && savedLegends.includes(activeItem.card_image)
@@ -181,6 +200,11 @@ export default function CardPage({ title, color, dataUrl, ticker }) {
                 </div>
                 {activeItem._isLegend && (
                   <div className="legend-album-wrap">
+                    {megaUnlocked && (
+                      <div className="mega-unlock-msg">
+                        10/10 CONGRATULATIONS<br />NEW MEGA LEGENDS UNLOCKED
+                      </div>
+                    )}
                     <button
                       className={`legend-album-btn${alreadySaved ? ' saved' : ''}`}
                       onClick={alreadySaved ? () => navigate('/legends') : addToAlbum}

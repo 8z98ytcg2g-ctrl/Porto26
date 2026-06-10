@@ -348,6 +348,25 @@ img { display: block; }
   transition: transform 0.3s ease;
 }
 
+.legends-card.mega-locked {
+  filter: brightness(0.7) sepia(0.3);
+}
+.mega-lock-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #FFD700;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  line-height: 1.5;
+  pointer-events: none;
+}
+
 /* ─── Gaff fullscreen map ───────────────────────── */
 .gaff-page {
   height: 100vh;
@@ -493,7 +512,8 @@ img { display: block; }
 
 .legend-album-wrap {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 10px 0 4px;
 }
 
@@ -512,6 +532,22 @@ img { display: block; }
 .legend-album-btn.saved {
   background: transparent;
   color: #F5C518;
+}
+.mega-unlock-msg {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #FFD700;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+  animation: mega-glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes mega-glow {
+  from { text-shadow: 0 0 8px rgba(255,215,0,0.4); }
+  to   { text-shadow: 0 0 18px rgba(255,215,0,0.9), 0 0 4px #fff; }
 }
 .card-desc-text {
   font-family: 'Chakra Petch', sans-serif;

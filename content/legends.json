@@ -1,4 +1,6 @@
 [
+  { "card_image": "manu.png",     "weight": 0, "mega": true },
+  { "card_image": "phil.png",     "weight": 0, "mega": true },
   { "card_image": "russ.png",     "weight": 3 },
   { "card_image": "grogan.png",   "weight": 3 },
   { "card_image": "harris.png",   "weight": 3 },

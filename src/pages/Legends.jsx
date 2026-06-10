@@ -53,7 +53,7 @@ export default function Legends() {
       <header className="page-header">
         <h1 className="page-title">LEGENDS</h1>
         {allLegends.length > 0 && (
-          <span className="legends-counter">{activeIndex + 1} / {allLegends.length}</span>
+          <span className="legends-counter">{activeIndex + 1} / {allLegends.filter(l => !l.mega || discovered.includes(l.card_image)).length}</span>
         )}
         <BackButton color={COLOR} />
       </header>
@@ -62,13 +62,11 @@ export default function Legends() {
         {allLegends.map((legend, i) => {
           const isFound = discovered.includes(legend.card_image)
           const isMega = legend.mega === true
+          if (isMega && !isFound) return null
           return (
             <div key={i} className="legends-slide">
-              <div className={`legends-card${isMega && !isFound ? ' mega-locked' : ''}`}>
+              <div className="legends-card">
                 <img src="/cards/blank.png" alt="" className="legends-blank" />
-                {isMega && !isFound && (
-                  <div className="mega-lock-label">MEGA LEGEND<br />LOCKED</div>
-                )}
                 {isFound && (
                   <img
                     src={`/cards/${legend.card_image}`}

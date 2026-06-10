@@ -19,7 +19,14 @@ export default function Legends() {
       .catch(err => console.error('Legends load error:', err))
 
     const saved = JSON.parse(localStorage.getItem('porto26_legends') || '[]')
-    setDiscovered(saved)
+    const regularSaved = saved.filter(img => !['manu.png', 'phil.png'].includes(img))
+    if (regularSaved.length >= 10 && !saved.includes('manu.png')) {
+      const withMega = [...new Set([...saved, 'manu.png', 'phil.png'])]
+      localStorage.setItem('porto26_legends', JSON.stringify(withMega))
+      setDiscovered(withMega)
+    } else {
+      setDiscovered(saved)
+    }
   }, [])
 
   useEffect(() => {
